@@ -1,24 +1,26 @@
 :root {
-    --background: rgb(192, 213, 207);
+    --background: rgb(66, 87, 81);
+    --div-background: rgb(192, 213, 207);
     --text-color: rgb(64, 67, 66);
 }
 
-.one {
+body{
     background-color: var(--background);
-    margin-left:auto;
-    margin-right:auto;
-    width: 1280px;
-    height:800px;
-    display: inline-block;
-
-}
-
-p{
     color: var(--text-color);
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     font-size: 2em;
     margin: 2em;
 }
+.one {
+    background-color: var(--div-background);
+    margin-left:auto;
+    margin-right:auto;
+    width: 500px;
+    height:500px;
+    display: inline-block;
+
+}
+
   
   
